@@ -1,8 +1,10 @@
+import kotaUrl from "./img/kota.jpg";
+
 export default function Profile() {
   return (
     <div className="flex items-center">
       <img
-        src="/src/img/kota.jpg"
+        src={kotaUrl}
         alt="Kota Profile Pic"
         className="rounded-full h-24 mr-5"
       />
