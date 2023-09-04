@@ -3,7 +3,7 @@ export default function Header() {
     <>
       <div className="min-w-[350px] sticky top-0 h-12 p-1">
         <img
-          src="src/img/kota.jpg"
+          src="./img/kota.jpg"
           alt="Kota Profile Pic"
           className="rounded-full h-3/4 ml-3 float-left"
         />
