@@ -2,7 +2,7 @@ export default function Profile() {
   return (
     <div className="flex items-center">
       <img
-        src="./img/kota.jpg"
+        src="/src/img/kota.jpg"
         alt="Kota Profile Pic"
         className="rounded-full h-24 mr-5"
       />
