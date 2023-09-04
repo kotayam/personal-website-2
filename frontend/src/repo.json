@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Notah", 
+        "date": "July 2023 - Present", 
+        "description": "hello",
+        "language": ["TypeScript", "React", "C#", "ASP.NET", "PostgreSQL", "Tailwind CSS"]
+    },
+    {
+        "name": "PokéChamp", 
+        "date": "June 2023", 
+        "description": "test",
+        "language": ["JavaScript", "NodeJS", "Express", "MongoDB", "HTML/CSS"]
+    },
+    {
+        "name": "Must Play Game Predictor", 
+        "date": "May 2023", 
+        "description": "test",
+        "language": ["R", "Text Mining", "ggplot2"]
+    },
+    {
+        "name": "Flightimizer", 
+        "date": "May 2023", 
+        "description": "test",
+        "language": ["Java", "Python", "Pandas", "R", "network", "igraph"]
+    }
+]
