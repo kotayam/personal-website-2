@@ -5,8 +5,10 @@ import Body from "./Body";
 function App() {
   return (
     <>
-      <Header />
-      <Body />
+      <div className="text-gray-400 bg-slate-900 font-sans">
+        <Header />
+        <Body />
+      </div>
     </>
   );
 }

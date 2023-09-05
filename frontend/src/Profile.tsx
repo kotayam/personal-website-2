@@ -2,7 +2,7 @@ import kotaUrl from "./img/kota.jpg";
 
 export default function Profile() {
   return (
-    <div className="flex items-center">
+    <div id="top" className="flex items-center">
       <img
         src={kotaUrl}
         alt="Kota Profile Pic"
