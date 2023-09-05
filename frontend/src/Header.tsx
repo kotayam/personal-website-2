@@ -18,8 +18,8 @@ export default function Header() {
           <a href="#projects" className="hover:underline mr-3 text-lg">
             Projects
           </a>
-          <a href="#links" className="hover:underline mr-3 text-lg">
-            Links
+          <a href="#contacts" className="hover:underline mr-3 text-lg">
+            Contacts
           </a>
         </div>
       </div>

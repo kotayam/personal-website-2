@@ -1,7 +1,7 @@
 import Profile from "./Profile";
 import About from "./About";
 import Projects from "./Projects";
-import Links from "./Links";
+import Contacts from "./Contacts";
 
 export default function Body() {
   return (
@@ -10,7 +10,7 @@ export default function Body() {
         <Profile/>
         <About/>
         <Projects/>
-        <Links/>
+        <Contacts/>
       </div>
     </div>
   );
