@@ -7,7 +7,7 @@ export default function Header() {
     if (clicked) {
       return (
         <>
-          <a href="#top" className="h-3/4 ml-3">
+          <a href="#top" className="h-3/4 ml-3" onClick={() => setClicked(false)}>
             <img
               src={kotaUrl}
               alt="Kota Profile Pic"
@@ -15,13 +15,13 @@ export default function Header() {
             />
           </a>
           <div className="text-gray-200">
-            <a href="#about" className="hover:underline ml-3 mr-3 text-lg">
+            <a href="#about" className="hover:underline ml-3 mr-3 text-lg" onClick={() => setClicked(false)}>
               About
             </a>
-            <a href="#projects" className="hover:underline mr-3 text-lg">
+            <a href="#projects" className="hover:underline mr-3 text-lg" onClick={() => setClicked(false)}>
               Projects
             </a>
-            <a href="#contacts" className="hover:underline mr-3 text-lg">
+            <a href="#contacts" className="hover:underline mr-3 text-lg" onClick={() => setClicked(false)}>
               Contacts
             </a>
           </div>
