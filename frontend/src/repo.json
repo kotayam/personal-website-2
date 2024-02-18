@@ -1,5 +1,6 @@
 [
   {
+    "id": "notah",
     "name": "Notah",
     "url": "https://github.com/kotayam/notah",
     "date": "July 2023 - Present",
@@ -15,6 +16,7 @@
     ]
   },
   {
+    "id": "pokechamp",
     "name": "PokéChamp",
     "url": "https://github.com/kotayam/pokechamp",
     "date": "June 2023",
@@ -30,6 +32,7 @@
     ]
   },
   {
+    "id": "must-play-game-predictor",
     "name": "Must Play Game Predictor",
     "url": "https://github.com/kotayam/must-play-game-predictor",
     "date": "May 2023",
@@ -38,6 +41,7 @@
     "language": ["R", "Text Mining", "ggplot2"]
   },
   {
+    "id": "flightimizer",
     "name": "Flightimizer",
     "url": "https://github.com/kotayam/flightimizer",
     "date": "May 2023",

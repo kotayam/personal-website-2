@@ -7,17 +7,37 @@ export default function Contancts() {
       <ul>
         <li>
           <p>
-            Email: <a href="mailto:kotayama@wharton.upenn.edu" className="hover:underline">kotayama@wharton.upenn.edu</a>
+            Email:{" "}
+            <a
+              href="mailto:kotayama@wharton.upenn.edu"
+              className="hover:underline"
+            >
+              kotayama@wharton.upenn.edu
+            </a>
           </p>
         </li>
         <li>
           <p>
-            LinkedIn: <a href="https://www.linkedin.com/in/kota-yamamoto/" target="_blank" className="hover:underline">https://www.linkedin.com/in/kota-yamamoto/</a>
+            LinkedIn:{" "}
+            <a
+              href="https://www.linkedin.com/in/kota-yamamoto/"
+              target="_blank"
+              className="hover:underline"
+            >
+              https://www.linkedin.com/in/kota-yamamoto/
+            </a>
           </p>
         </li>
         <li>
           <p>
-            GitHub: <a href="https://github.com/kotayam" target="_blank" className="hover:underline">https://github.com/kotayam</a>
+            GitHub:{" "}
+            <a
+              href="https://github.com/kotayam"
+              target="_blank"
+              className="hover:underline"
+            >
+              https://github.com/kotayam
+            </a>
           </p>
         </li>
       </ul>
