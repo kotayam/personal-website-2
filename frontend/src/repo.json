@@ -1,0 +1,52 @@
+[
+  {
+    "id": "notah",
+    "name": "Notah",
+    "url": "https://github.com/kotayam/notah",
+    "date": "July 2023 - Present",
+    "description": "An AI-powered note-taking app, which allows users to write prompts and receive text outputs from the GPT model directly in their note.",
+    "more": "Utilized OpenAI API to integrate generative AI. Built a clean and efficient UI/UX using React and Tailwind. Developed a backend REST API with ASP.NET (C#) which communicates with a PostgreSQL database.",
+    "language": [
+      "TypeScript",
+      "React",
+      "C#",
+      "ASP.NET",
+      "PostgreSQL",
+      "Tailwind CSS"
+    ]
+  },
+  {
+    "id": "pokechamp",
+    "name": "PokéChamp",
+    "url": "https://github.com/kotayam/pokechamp",
+    "date": "June 2023",
+    "description": "A platform for Pokémon trainers to create and share their favorite Pokémon party.",
+    "more": "Utilized PokéAPI to display Pokémon data such as image, name, type. Developed a backend server with NodeJS and Express which communicates with a MongoDB database. Implemented user authentication using JWT.",
+    "language": [
+      "JavaScript",
+      "NodeJS",
+      "Express",
+      "MongoDB",
+      "JWT",
+      "HTML/CSS"
+    ]
+  },
+  {
+    "id": "must-play-game-predictor",
+    "name": "Must Play Game Predictor",
+    "url": "https://github.com/kotayam/must-play-game-predictor",
+    "date": "May 2023",
+    "description": "A predictive model which identifies whether a video game should be classified as a Must Play game based on its reviews on Metacritic.",
+    "more": "Built the model using text preprocessing and logistic regression against a Kaggle dataset with 5K games and 284K user reviews. The model achieved a prediction accuracy of 65.52% on test data.",
+    "language": ["R", "Text Mining", "ggplot2"]
+  },
+  {
+    "id": "flightimizer",
+    "name": "Flightimizer",
+    "url": "https://github.com/kotayam/flightimizer",
+    "date": "May 2023",
+    "description": "An application that recommends users the fastest flight from a source to a destination airport utilizing Dijkstra's algorithm.",
+    "more": "Constructed a directed graph from a Kaggle dataset with 578K flight data, where edges are weighed by elapsed flight time.",
+    "language": ["Java", "Python", "Pandas", "R", "network", "igraph"]
+  }
+]
