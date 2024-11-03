@@ -18,7 +18,7 @@ export default function Header() {
               className="rounded-full border-[1px] border-transparent h-full hover:border-white"
             />
           </a>
-          <div className="text-gray-200 flex justify-start content-center">
+          <div className="text-gray-200 flex justify-start items-center">
             <a
               href="#about"
               className="hover:underline ml-3 mr-3 text-lg"
