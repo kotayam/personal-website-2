@@ -1,9 +1,22 @@
 [
   {
+    "id": "c-react",
+    "name": "C React",
+    "url": "https://github.com/kotayam/c-react",
+    "date": "March 2024",
+    "description": "A dynamic web server in C allowing clients to create new items and view them on web pages.",
+    "more": "Developed a IPv4 and TCP socket, which listens to client connections continuously. Implemented an HTTP request parser that extracts client data, and a custom HTML renderer for generating dynamic web pages.",
+    "language": [
+      "C",
+      "socket",
+      "system call"
+    ]
+  },
+  {
     "id": "notah",
     "name": "Notah",
     "url": "https://github.com/kotayam/notah",
-    "date": "July 2023 - Present",
+    "date": "January 2024",
     "description": "An AI-powered note-taking app, which allows users to write prompts and receive text outputs from the GPT model directly in their note.",
     "more": "Utilized OpenAI API to integrate generative AI. Built a clean and efficient UI/UX using React and Tailwind. Developed a backend REST API with ASP.NET (C#) which communicates with a PostgreSQL database.",
     "language": [
