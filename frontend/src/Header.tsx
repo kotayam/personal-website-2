@@ -1,4 +1,3 @@
-import kotaUrl from "./img/kota.jpg";
 import { useState } from "react";
 
 export default function Header() {
@@ -13,7 +12,7 @@ export default function Header() {
             onClick={() => setClicked(false)}
           >
             <img
-              src={kotaUrl}
+              src="/img/kota.jpg"
               alt="Kota Profile Pic"
               className="rounded-full border-[1px] border-transparent h-full hover:border-white"
             />
@@ -63,7 +62,7 @@ export default function Header() {
       >
         <a href="#top" className="h-3/4 ml-3 navmax:hidden">
           <img
-            src={kotaUrl}
+            src="/img/kota.jpg"
             alt="Kota Profile Pic"
             className="rounded-full border-[1px] border-transparent h-full hover:border-white"
           />
