@@ -41,7 +41,7 @@ export default function Repo({ idx }: RepoProps) {
     return (
       <div>
         <img
-          src={`./src/img/${repos[idx].id}.jpg`}
+          src={`/img/${repos[idx].id}.jpg`}
           alt={`thumbnail for ${repos[idx].name}`}
         />
       </div>

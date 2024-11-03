@@ -12,7 +12,7 @@ export default function Companies() {
                 backgroundColor: comp.background,
                 borderRadius: "50%",
               }}
-              src={`./src/img/${comp.img}.png`}
+              src={`/img/${comp.img}.png`}
               alt={`image of ${comp.name}`}
             />
             <a
