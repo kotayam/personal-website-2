@@ -15,7 +15,11 @@ export default function Companies() {
               src={`./src/img/${comp.img}.png`}
               alt={`image of ${comp.name}`}
             />
-            <a href={comp.link} className="hover:underline text-white">
+            <a
+              href={comp.link}
+              target="_blank"
+              className="hover:underline text-white"
+            >
               {comp.name}
             </a>
             <p>Project: {comp.project}</p>
