@@ -1,16 +1,27 @@
 [
   {
+    "id": "pokodb",
+    "name": "PokoDB",
+    "url": "https://github.com/kotayam/pokodb",
+    "date": "In Development",
+    "description": "An in-memory database in C, allowing operations such as insert, select, update, and delete.",
+    "more": "Utilizing threads and implementing a hash map to enable fast and efficient queries. Developing a CLI to interact and execute queries to the database, while handling signals like SIGINT. Creating a Javascript library to integrate with web/mobile applications, particularly for caching fetched data.",
+    "language": [
+      "C",
+      "Database",
+      "Threads",
+      "Signal Handling",
+      "Javascript Library"
+    ]
+  },
+  {
     "id": "c-react",
     "name": "C React",
     "url": "https://github.com/kotayam/c-react",
     "date": "March 2024",
     "description": "A dynamic web server in C allowing clients to create new items and view them on web pages.",
     "more": "Developed a IPv4 and TCP socket, which listens to client connections continuously. Implemented an HTTP request parser that extracts client data, and a custom HTML renderer for generating dynamic web pages.",
-    "language": [
-      "C",
-      "socket",
-      "system call"
-    ]
+    "language": ["C", "Sockets"]
   },
   {
     "id": "notah",

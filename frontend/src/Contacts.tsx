@@ -1,7 +1,7 @@
 export default function Contancts() {
   return (
     <div className="mt-5">
-      <h2 id="contacts" className="text-white text-lg mb-1">
+      <h2 id="contacts" className="text-white text-xl mb-1">
         Contacts
       </h2>
       <ul>
