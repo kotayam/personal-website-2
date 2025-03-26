@@ -5,7 +5,10 @@ export default function Companies() {
     <div>
       <div className="flex justify-start items-center gap-6">
         {companies.map((comp) => (
-          <div className="flex-col flex justify-center items-center gap-2">
+          <div
+            key={comp.name}
+            className="flex-col flex justify-center items-center gap-2"
+          >
             <img
               className="w-20 h-20 object-contain"
               style={{
