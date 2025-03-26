@@ -61,7 +61,7 @@ export default function Repo({ idx }: RepoProps) {
         >
           <h3
             className="text-white text-lg mr-2"
-            onMouseEnter={() => setDisplayThumb(prev => !prev)}
+            onMouseEnter={() => setDisplayThumb((prev) => !prev)}
           >
             {repos[idx].name}
           </h3>
@@ -83,24 +83,12 @@ export default function Repo({ idx }: RepoProps) {
         <p className="text-gray-300">{repos[idx].description}</p>
         {handleReadMore()}
         <ul>
-          {repos[idx].language.map((lang, i) => {
-            if (i > 0) {
-              return (
-                <>
-                  <li key={i} className="inline-block">
-                    <span className="mr-1 ml-1">&#x2022;</span>
-                    {lang}
-                  </li>
-                </>
-              );
-            } else {
-              return (
-                <li key={i} className="inline-block">
-                  {lang}
-                </li>
-              );
-            }
-          })}
+          {repos[idx].language.map((lang, i) => (
+            <li key={`${idx}-${i}`} className="inline-block">
+              {i > 0 && <span className="mr-1 ml-1">&#x2022;</span>}
+              {lang}
+            </li>
+          ))}
         </ul>
         {displayThumb ? displayThumbnail() : <></>}
       </div>
