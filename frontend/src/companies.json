@@ -1,6 +1,13 @@
 [
   {
-    "name": "very50 (Certified Nonprofit)",
+    "name": "Turing",
+    "img": "turing",
+    "background": "white",
+    "link": "https://tur.ing/en",
+    "position": "Driving Software Engineer"
+  },
+  {
+    "name": "very50",
     "img": "very50",
     "background": "white",
     "link": "https://very50.com/",
