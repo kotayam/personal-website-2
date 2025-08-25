@@ -9,6 +9,10 @@ export default function Repo({ idx }: RepoProps) {
   const [moreDesc, setMoreDesc] = useState("");
 
   const handleReadMore = () => {
+    const more = repos[idx].more;
+    if (!more) {
+      return null;
+    }
     if (moreDesc) {
       return (
         <>
@@ -26,7 +30,7 @@ export default function Repo({ idx }: RepoProps) {
           <div className="flex justify-end">
             <button
               className="hover:underline"
-              onClick={() => setMoreDesc(repos[idx].more)}
+              onClick={() => setMoreDesc(more)}
             >
               read more
             </button>
