@@ -7,12 +7,20 @@ export default function Contancts() {
       <ul>
         <li>
           <p>
-            Email:{" "}
+            School Email:{" "}
             <a
-              href="mailto:kotayama@wharton.upenn.edu"
+              href="mailto:kotayama@seas.upenn.edu"
               className="hover:underline"
             >
-              kotayama@wharton.upenn.edu
+              kotayama@seas.upenn.edu
+            </a>
+          </p>
+        </li>
+        <li>
+          <p>
+            Personal Email:{" "}
+            <a href="mailto:ykomako4.9@gmail.com" className="hover:underline">
+              ykomako4.9@gmail.com
             </a>
           </p>
         </li>
