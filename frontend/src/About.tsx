@@ -5,9 +5,9 @@ export default function About() {
         About
       </h2>
       <p>
-        Hi, my name is Kota Yamamoto. I'm a full-stack developer passionate
-        about providing creative solutions and entertainment through building
-        systems and web applications.
+        Hi, my name is Kota Yamamoto. I'm a full-stack & systems engineer
+        passionate about providing creative solutions and entertainment through
+        systems and software.
       </p>
     </div>
   );

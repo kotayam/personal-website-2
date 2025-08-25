@@ -8,7 +8,7 @@ export default function Profile() {
       />
       <div>
         <h1 className="text-2xl text-white">Kota Yamamoto</h1>
-        <p className="text-xl">Full-Stack Developer</p>
+        <p className="text-xl">Full-Stack & Systems Engineer</p>
       </div>
     </div>
   );

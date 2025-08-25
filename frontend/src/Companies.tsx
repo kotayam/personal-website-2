@@ -21,11 +21,14 @@ export default function Companies() {
             <a
               href={comp.link}
               target="_blank"
-              className="hover:underline text-white"
+              className="hover:underline text-white text-center"
             >
               {comp.name}
             </a>
-            <p>Project: {comp.project}</p>
+            {comp.project && (
+              <p className="text-center">Project: {comp.project}</p>
+            )}
+            {comp.position && <p className="text-center">{comp.position}</p>}
           </div>
         ))}
       </div>
