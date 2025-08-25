@@ -6,7 +6,7 @@ export default function Work() {
       <h2 id="work" className="text-white text-xl mb-2">
         Work
       </h2>
-      <Companies/>
+      <Companies />
     </div>
   );
 }
