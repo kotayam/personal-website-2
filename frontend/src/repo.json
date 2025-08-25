@@ -3,15 +3,15 @@
     "id": "heppoko-ui",
     "name": "HeppokoUI",
     "url": "https://github.com/kotayam/heppoko-ui",
-    "date": "In Development",
-    "description": "Simple and customizable React component library.",
+    "date": "In development",
+    "description": "A simple and customizable React component library.",
     "language": ["React", "Vanilla-extract", "CI", "Vitest"]
   },
   {
     "id": "alice",
     "name": "Alice",
     "url": "https://github.com/kotayam/alice",
-    "date": "In Development",
+    "date": "In development",
     "description": "A game about discovering wonders in the real world.",
     "language": ["Go", "HTMX", "SQLite", "Leaflet", "Templ"]
   },
