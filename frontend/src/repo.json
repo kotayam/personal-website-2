@@ -1,5 +1,13 @@
 [
   {
+    "id": "heppoko-ui",
+    "name": "HeppokoUI",
+    "url": "https://github.com/kotayam/heppoko-ui",
+    "date": "In Development",
+    "description": "Simple and customizable React component library.",
+    "language": ["React", "Vanilla-extract", "CI", "Vitest"]
+  },
+  {
     "id": "alice",
     "name": "Alice",
     "url": "https://github.com/kotayam/alice",
@@ -32,14 +40,7 @@
     "date": "January 2024",
     "description": "An AI-powered note-taking app, which allows users to write prompts and receive text outputs from the GPT model directly in their note.",
     "more": "Utilized OpenAI API to integrate generative AI. Built a clean and efficient UI/UX using React and Tailwind. Developed a backend REST API with ASP.NET (C#) which communicates with a PostgreSQL database.",
-    "language": [
-      "TypeScript",
-      "React",
-      "C#",
-      "ASP.NET",
-      "PostgreSQL",
-      "Tailwind CSS"
-    ]
+    "language": ["React", "C#", "ASP.NET", "PostgreSQL", "Tailwind CSS"]
   },
   {
     "id": "pokechamp",
@@ -48,14 +49,7 @@
     "date": "June 2023",
     "description": "A platform for Pokémon trainers to create and share their favorite Pokémon party.",
     "more": "Utilized PokéAPI to display Pokémon data such as image, name, type. Developed a backend server with NodeJS and Express which communicates with a MongoDB database. Implemented user authentication using JWT.",
-    "language": [
-      "JavaScript",
-      "NodeJS",
-      "Express",
-      "MongoDB",
-      "JWT",
-      "HTML/CSS"
-    ]
+    "language": ["JavaScript", "NodeJS", "Express", "MongoDB", "JWT"]
   },
   {
     "id": "must-play-game-predictor",
