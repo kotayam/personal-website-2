@@ -1,18 +1,20 @@
 [
   {
+    "id": "alice",
+    "name": "Alice",
+    "url": "https://github.com/kotayam/alice",
+    "date": "In Development",
+    "description": "A game about discovering wonders in the real world.",
+    "language": ["Go", "HTMX", "SQLite", "Leaflet", "Templ"]
+  },
+  {
     "id": "pokodb",
     "name": "PokoDB",
     "url": "https://github.com/kotayam/pokodb",
-    "date": "In Development",
+    "date": "December 2024",
     "description": "An in-memory database in C, allowing operations such as insert, select, update, and delete.",
     "more": "Utilizing threads and implementing a hash map to enable fast and efficient queries. Developing a CLI to interact and execute queries to the database, while handling signals like SIGINT. Creating a Javascript library to integrate with web/mobile applications, particularly for caching fetched data.",
-    "language": [
-      "C",
-      "Database",
-      "Threads",
-      "Signal Handling",
-      "Javascript Library"
-    ]
+    "language": ["C", "Database", "Threads", "Signal Handling"]
   },
   {
     "id": "c-react",
