@@ -7,7 +7,6 @@ type RepoProps = {
 
 export default function Repo({ idx }: RepoProps) {
   const [moreDesc, setMoreDesc] = useState("");
-  const [displayThumb, setDisplayThumb] = useState(false);
 
   const handleReadMore = () => {
     if (moreDesc) {
@@ -37,17 +36,6 @@ export default function Repo({ idx }: RepoProps) {
     }
   };
 
-  const displayThumbnail = () => {
-    return (
-      <div>
-        <img
-          src={`/img/${repos[idx].id}.jpg`}
-          alt={`thumbnail for ${repos[idx].name}`}
-        />
-      </div>
-    );
-  };
-
   return (
     <div className="mb-4 sm:flex sm:flex-row">
       <div className="sm:basis-[175px]">
@@ -59,12 +47,7 @@ export default function Repo({ idx }: RepoProps) {
           target="_blank"
           className="flex items-center hover:underline"
         >
-          <h3
-            className="text-white text-lg mr-2"
-            onMouseEnter={() => setDisplayThumb((prev) => !prev)}
-          >
-            {repos[idx].name}
-          </h3>
+          <h3 className="text-white text-lg mr-2">{repos[idx].name}</h3>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -90,7 +73,6 @@ export default function Repo({ idx }: RepoProps) {
             </li>
           ))}
         </ul>
-        {displayThumb ? displayThumbnail() : <></>}
       </div>
     </div>
   );
