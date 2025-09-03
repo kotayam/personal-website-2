@@ -26,7 +26,20 @@ export default function Companies() {
               {comp.name}
             </a>
             {comp.project && (
-              <p className="text-center">Project: {comp.project}</p>
+              <p className="text-center">
+                Project:{" "}
+                {comp.projectLink ? (
+                  <a
+                    href={comp.projectLink}
+                    target="_blank"
+                    className="hover:underline"
+                  >
+                    {comp.project}
+                  </a>
+                ) : (
+                  comp.project
+                )}
+              </p>
             )}
             {comp.position && <p className="text-center">{comp.position}</p>}
           </div>
